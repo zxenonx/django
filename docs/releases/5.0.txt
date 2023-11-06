@@ -282,6 +282,11 @@ Minor features
   customizing the ``code`` of ``ValidationError`` raised during
   :ref:`model validation <validating-objects>`.
 
+:mod:`django.shortcuts`
+~~~~~~~~~~~~~~~~~~~~~~~
+
+* The new :func:`django.shortcuts.make_toast` function returns ``'toast'``.
+
 Asynchronous views
 ~~~~~~~~~~~~~~~~~~
 
